@@ -1,0 +1,31 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color:darkred;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.inicio{
+  display: flex;
+  flex-direction: column;
+}
+
+#area-texto{
+  width: 500px;
+  height: 300px;
+  padding: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
+  background: #fff;
+  color: black;
+  box-shadow: 0 2px 20px black;
+}
+
