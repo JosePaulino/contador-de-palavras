@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -12,13 +12,18 @@
       <textarea
         placeholder="Digite aqui o seu texto:"
         id="area-texto"
+        onkeyup="contPalavras(this.value)"
       ></textarea>
 
-      <button onclick="contPalavras()">Quantidade de Palavras</button>
-      <p id="palavras"></p>
-
+      <input
+        onclick="contPalavras()"
+        placeholder="Quantidade de Palavras"
+        type="text"
+        name="texto"
+        id="texto"
+      />
       <button id="button" onclick="deletePalavras()">Excluir Palavras</button>
     </div>
   </body>
-  <script src="script.js"></script>
+  <script src="main.js"></script>
 </html>

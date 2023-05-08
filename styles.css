@@ -30,9 +30,12 @@ body{
   resize:none;
 }
 
-button {
-  background: dimgray;
-  border: none;
+#texto::-webkit-input-placeholder{
+   color:#fff; 
+  }
+
+button, input{
+  background-color: dimgray;  
   height: 50px;
   margin-top: 20px;
   border-radius: 5px;
@@ -43,13 +46,6 @@ button {
   box-shadow: 0 2px 20px black;
   font-weight: 900;
   border: 1px solid #3e3b3f;
-}
-
-
-
-#palavras{
-  margin-top: 20px;
-  color: #fff;
-  font-weight: 600;
   text-align: center;
 }
+
