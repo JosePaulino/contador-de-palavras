@@ -1,11 +1,11 @@
-*{
+* {
   margin: 0;
   padding: 0;
 }
 
-body{
+body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  background-color:darkred;
+  background-color: darkred;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -13,12 +13,19 @@ body{
   width: 100%;
 }
 
-.inicio{
+h1 {
+  margin: 0 auto;
+  margin-bottom: 20px;
+  color: #fff;
+  text-shadow: 2px 2px 2px #3e3b3f;
+}
+
+.inicio {
   display: flex;
   flex-direction: column;
 }
 
-#area-texto{
+#area-texto {
   width: 500px;
   height: 300px;
   padding: 15px;
@@ -27,15 +34,16 @@ body{
   background: #fff;
   color: black;
   box-shadow: 0 2px 20px black;
-  resize:none;
+  resize: none;
 }
 
-#texto::-webkit-input-placeholder{
-   color:#fff; 
-  }
+#texto::-webkit-input-placeholder {
+  color: #fff;
+}
 
-button, input{
-  background-color: dimgray;  
+button,
+input {
+  background-color: dimgray;
   height: 50px;
   margin-top: 20px;
   border-radius: 5px;
@@ -49,3 +57,8 @@ button, input{
   text-align: center;
 }
 
+button:hover {
+  background-color: #3e3b3f;
+  padding: 0 0 0 5px;
+  border: 1px #fff solid;
+}
